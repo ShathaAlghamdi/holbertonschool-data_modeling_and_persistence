@@ -1,4 +1,4 @@
-CREATE TABLE book (
+CREATE TABLE books (
     id TEXT PRIMARY KEY,
     title TEXT,
     author TEXT,

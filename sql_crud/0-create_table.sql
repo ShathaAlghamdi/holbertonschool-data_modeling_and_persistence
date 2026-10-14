@@ -1,11 +1,9 @@
-CREATE TABLE book ( 
-    UUID id PRIMARY KEY ,
-    string title ,
-    string author ,
-    string genre,
-    int price not null , 
-    int stock ,
-    int publication_year 
-
-
- )
+CREATE TABLE book (
+    id TEXT PRIMARY KEY,
+    title TEXT,
+    author TEXT,
+    genre TEXT,
+    price REAL NOT NULL,
+    stock INTEGER,
+    publication_year INTEGER
+);

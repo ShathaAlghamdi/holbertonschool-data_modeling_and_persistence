@@ -1,1 +1,1 @@
-SELECT title, price FROM books where price < 20;
+SELECT title, price FROM books where price > 20;

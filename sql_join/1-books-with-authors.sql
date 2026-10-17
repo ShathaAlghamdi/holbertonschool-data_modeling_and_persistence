@@ -4,4 +4,4 @@ SELECT
 FROM books AS b
 INNER JOIN authors AS a
     ON b.author_id = a.id
-ORDER BY b.title ASC, a.name ASC;
+ORDER BY b.title ASC;
